@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+body {
+  padding: 1rem;
+  background: #f7f8fa;
+  color: #1f2937;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 30ch;
+  gap: 1rem;
+  align-items: start;
+}
+
+button {
+  padding: 0.25rem;
+}
+button:hover {
+  cursor: pointer;
+}
+
+section h2 {
+  margin-bottom: 0.5rem;
+}
